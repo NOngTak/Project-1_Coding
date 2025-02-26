@@ -2,7 +2,7 @@ def Vibration_Distance():
     v = float(input("กรุณากรอกความเร็ว: "))  # Input speed (v)
     f = float(input("กรุณากรอกความเร็วรอบ: "))  # Input frequency (f)
     
-    D = 27010 * v * f
+    D = 27010 * v / f
     
     print(f"ระยะการสั่นสะเทือน: {D} mm")
 
