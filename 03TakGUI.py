@@ -8,7 +8,7 @@ def calculate_vibration_distance():
         f = float(frequency_entry.get())  # Get frequency (f) from the entry
         
         # Calculate the vibration distance
-        D = 27010 * v * f
+        D = 27010 * v / f
         
         # Display the result
         result_label.config(text=f"ระยะการสั่นสะเทือน: {D:.2f} mm")
